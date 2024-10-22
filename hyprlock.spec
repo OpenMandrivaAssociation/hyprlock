@@ -51,3 +51,4 @@ Features:
 %doc README.md
 %{_bindir}/%{name}
 %config(noreplace) %{_sysconfdir}/pam.d/%{name}
+%{_datadir}/hypr/hyprlock.conf
