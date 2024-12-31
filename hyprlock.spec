@@ -1,6 +1,6 @@
 Name:           hyprlock
-Version:        0.6.0
-Release:        2
+Version:        0.6.1
+Release:        1
 Summary:        Hyprland's GPU-accelerated screen locking utility
 License:        BSD-3-Clause
 Group:          Utility/Hyprland
@@ -14,6 +14,7 @@ BuildRequires:  pkgconfig(gbm)
 BuildRequires:  pkgconfig(hyprlang)
 BuildRequires:  pkgconfig(hyprutils)
 BuildRequires:  pkgconfig(hyprgraphics)
+BuildRequires:  pkgconfig(hyprwayland-scanner)
 BuildRequires:  pkgconfig(libdrm)
 BuildRequires:  pkgconfig(libjpeg)
 BuildRequires:  pkgconfig(libmagic)
@@ -28,6 +29,7 @@ BuildRequires:  pkgconfig(wayland-protocols)
 BuildRequires:  pkgconfig(xkbcommon)
 
 Requires: hyprgraphics
+Requires: hyprwayland-scanner
 
 %description
 Hyprland's simple, yet multi-threaded and GPU-accelerated screen locking utility.
