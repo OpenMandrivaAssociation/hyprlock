@@ -8,6 +8,7 @@ URL:            https://github.com/hyprwm/hyprlock
 Source0:        https://github.com/hyprwm/hyprlock/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
+BuildRequires:  make
 BuildRequires:  pkgconfig(cairo)
 BuildRequires:  pkgconfig(egl)
 BuildRequires:  pkgconfig(gbm)
